@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Boostrap Layout</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <style>
+            span
+            {
+                text-align: center;
+                color:white;
+                font-weight: bolder;
+                
+            }
+            @media only screen and (max-width: 576px) 
+            {
+              .first 
+                {
+                    order: 1;
+                }
+              .second 
+                {
+                    order: 3;
+                }
+               .third 
+                {
+                    order: 2;
+                }
+           }
+        </style>
+    </head>
+    <body>
+<div class="container">
+    <div class="row">
+      <div class=" col-sm-2 col-lg-2 first" style="background-color:#0066ff; ">
+        <br><br><br>
+        <span>NAV</span>
+      </div>
+      <div class=" col-sm-8 col-lg-8 second" style="background-color:#ff6600;height: 200px;">
+        <br><br><br>
+        <span>CONTENT</span>
+      </div>
+      <div class="col-sm-2 col-lg-2 third" style="background-color:#e60000;">
+        <br><br><br>
+        <span>WIDGET</span>
+      </div>
+    </div>
+</div>
+</body>
+</html>
